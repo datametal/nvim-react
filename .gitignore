@@ -1,2 +1,4 @@
 spell
 .DS_Store
+.yarn-lock 
+.package-lock.json

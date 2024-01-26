@@ -467,7 +467,7 @@ return {
   },
   {
     "iamcco/markdown-preview.nvim",
-    build = "cd app && npm install",
+    build = "cd app && npm install && rm -f packaged-lock.json && git restore .",
     setup = function()
       vim.g.mkdp_filetypes = { "markdown" }
     end,
